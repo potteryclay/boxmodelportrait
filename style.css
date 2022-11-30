@@ -1,0 +1,383 @@
+/*
+  --hair: #2B3447;
+  --skin: #886D6A;
+  --shadow: #4C3238;
+  --lipup: #552F3C;
+  --lipdown: #814F59;
+  --brow: #1E1B2B;
+  --sclera: #33303A;
+  --iris: #111426;
+  --shirt: #97A3C2;
+  */
+body {
+  background-color: #A2BADA;
+  margin: center;
+}
+.baseFace1 { 
+  background-color: #886D6A;
+  width: 192px;
+  height: 47px;
+  display: block;
+  position: absolute;
+  margin: 311px 281px;
+  z-index: -1;
+  }
+.baseFace2 { 
+  background-color: #886D6A;
+  width: 186px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  margin: 354px 287px;
+  z-index: 0;
+  }
+.baseFace3 { 
+  background-color: #886D6A;
+  width: 181px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  margin: 272px 285px;
+  z-index: -1;
+  }
+.baseFace4 { 
+  background-color: #886D6A;
+  width: 152px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  margin: 240px 295px;
+  }
+.baseFace5 { 
+  background-color: #886D6A;
+  width: 77px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  margin: 230px 342px;
+  z-index: -1;
+  }
+.baseFace6 { 
+  background-color: #886D6A;
+  width: 108px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  margin: 380px 268px;
+  z-index: -1;
+  }
+.neck { 
+  background-color: #886D6A;
+  width: 139px;
+  height: 167px;
+  display: block;
+  position: absolute;
+  margin: 410px 306px;
+  z-index: -1;
+  }
+.shadow1 {
+  background-color: #4C3238;
+  width: 83px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  margin: 415px 350px;
+  z-index: 0;
+}
+.shadow2 {
+  background-color: #4C3238;
+  width: 94px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  margin: 400px 370px;
+  z-index: 0;
+}
+.shadow3 {
+  background-color: #4C3238;
+  width: 9px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  margin: 340px 470px;
+  z-index: -2;
+}
+.shadow4 {
+  background-color: #4C3238;
+  width: 22px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  margin: 263px 340px;
+  z-index: 0;
+}
+/*!!!!!eye shadows! ^ and v */
+.shadow5 {
+  background-color: #4C3238;
+  width: 16px;
+  height: 26px;
+  display: block;
+  position: absolute;
+  margin: 255px 388px;
+  z-index: 0;
+}
+.scleraL1{
+  background-color: #33303A;
+  width: 9px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  margin: 290px 343px;
+  z-index: 0;
+}
+.scleraL2{
+  background-color: #33303A;
+  width: 16px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  margin: 293px 330px;
+  z-index: 0;
+  }
+.irisL{
+  background-color: #111426;
+  width: 18px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  margin: 292px 325px;
+  z-index: 1;
+  }
+.scleraL3{
+  background-color: #33303A;
+  width: 10px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  margin: 300px 320px;
+  z-index: 0;
+  }
+.scleraR{
+  background-color: #33303A;
+  width: 32px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  margin: 282px 398px;
+  z-index: 1;
+  }
+.irisR{
+  background-color: #111426;
+  width: 18px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  margin: 280px 404px;
+  z-index: 2;
+  }
+.nose1 {
+  background-color: #4C3238;
+  width: 38px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  margin: 300px 374px;
+  z-index: 0;
+}
+.nose2 {
+  background-color: #4C3238;
+  width: 22px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  margin: 290px 380px;
+  z-index: 0;
+}
+.lipup1 {
+  background-color: #552F3C;
+  width: 33px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  margin: 330px 388px;
+  z-index: 0;
+}
+.lipup2 {
+  background-color: #552F3C;
+  width: 60px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  margin: 338px 373px;
+  z-index: 0;
+  }
+.liplow {
+  background-color: #814F59;
+  width: 38px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  margin: 344px 385px;
+  z-index: 1;
+  }
+.browR1{ 
+  background-color: #1E1B2B;
+  width: 27px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  margin: 250px 395px;
+  z-index: 2;
+}
+.browR2{ 
+  background-color: #1E1B2B;
+  width: 16px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  margin: 254px 412px;
+  z-index: 2;
+}
+.browL1{ 
+  background-color: #1E1B2B;
+  width: 26px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  margin: 260px 320px;
+  z-index: 2;
+}
+.browL2{ 
+  background-color: #1E1B2B;
+  width: 13px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  margin: 265px 310px;
+  z-index: 2;
+}
+.ear{ 
+  background-color: #1E1B2B;
+  width: 21px;
+  height: 21px;
+  display: block;
+  position: absolute;
+  margin: 390px 275px;
+  z-index: -1;
+}
+.nost1{ 
+  background-color: #1E1B2B;
+  width: 9px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  margin: 303px 378px;
+  z-index: 1;
+}
+.nost2{ 
+  background-color: #1E1B2B;
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  margin: 300px 396px;
+  z-index: 1;
+}
+.hair1 { 
+  background-color: #2B3447;
+  width: 189px;
+  height: 255px;
+  display: block;
+  position: absolute;
+  margin: 200px 300px;
+  z-index: -3;
+  }
+.hair2 { 
+  background-color: #2B3447;
+  width: 160px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  margin: 170px 310px;
+  z-index: -3;
+  }
+.hair3 { 
+  background-color: #2B3447;
+  width: 41px;
+  height: 63px;
+  display: block;
+  position: absolute;
+  margin: 215px 270px;
+  z-index: -3;
+  }
+.hair4 { 
+  background-color: #2B3447;
+  width: 110px;
+  height: 141px;
+  display: block;
+  position: absolute;
+  margin: 260px 240px;
+  z-index: -3;
+  }
+.hair5 { 
+  background-color: #2B3447;
+  width: 81px;
+  height: 97px;
+  display: block;
+  position: absolute;
+  margin: 415px 250px;
+  z-index: -3;
+  }
+.hair6 { 
+  background-color: #2B3447;
+  width: 76px;
+  height: 76px;
+  display: block;
+  position: absolute;
+  margin: 415px 430px;
+  z-index: -3;
+  }
+.shirt1{
+  background-color: #97A3C2;
+  width: 451px;
+  height: 38px;
+  display: block;
+  position: absolute;
+  margin: 575px 100px;
+  z-index: 0;
+}
+.shirt2{
+  background-color: #97A3C2;
+  width: 279px;
+  height: 54px;
+  display: block;
+  position: absolute;
+  margin: 555px 130px;
+  z-index: 0;
+}
+.shirt3{
+  background-color: #97A3C2;
+  width: 89px;
+  height: 62px;
+  display: block;
+  position: absolute;
+  margin: 525px 230px;
+  z-index: 1;
+}
+.choker{
+  background-color: #111426;
+  width: 153px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  margin: 507px 300px;
+  z-index: 0;
+  }
+.frame{
+  width: 500px;
+  height: 500px;
+  border-style: double;
+  display: block;
+  position: absolute;
+  margin: 110px 70px;
+}
